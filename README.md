@@ -8,7 +8,7 @@
 Дизайн выполнен в стиле **яркого glassmorphism + neon gradients**, полностью адаптивный под мобильные устройства.
 
 ---
-
+[Figma](https://www.figma.com/design/4xVmTHSWpxHCb6bRxa3Lyx/The-PixPax-s-team-library?node-id=0-1&t=43NWIAY6QeRaOjkZ-1)
 
 ---
 
@@ -39,3 +39,5 @@
 ```bash
 git clone https://github.com/Iskende449/quotes.git
 cd quotes
+
+
