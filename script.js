@@ -7,7 +7,11 @@ async function fetchQuote() {
     quoteAuthor.textContent = '';
 
     try {
-        const response = await fetch('https://api.quotable.io/random');
+        const response = await fetch('https://api.quotable.io/random', {
+    method: 'GET',
+    mode: 'cors',
+    cache: 'no-cache'
+        });
         if (!response.ok) throw new Error('Ошибка при получении цитаты');
         const data = await response.json();
 
@@ -15,12 +19,14 @@ async function fetchQuote() {
         quoteAuthor.textContent = data.author;
 
     } catch (err) {
-        quoteText.textContent = 'Не удалось загрузить цитату.';
-        quoteAuthor.textContent = '';
-        console.error(err);
-    }
+    quoteText.textContent = 'Не удалось загрузить цитату.';
+    quoteAuthor.textContent = '';
+    console.error('Ошибка fetch:', err);
+}
+
 }
 
 newQuoteBtn.addEventListener('click', fetchQuote);
+
 
 fetchQuote();
