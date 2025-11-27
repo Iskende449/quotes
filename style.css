@@ -39,6 +39,7 @@ html, body {
 .bg-photo {
     position: fixed;
     inset: 0;
+    background-image: url("gg.jpeg");
     background-size: cover;
     background-position: center;
     opacity: 0.08;
@@ -189,4 +190,5 @@ blockquote {
         font-size: 15px;
     }
 }
+
 
