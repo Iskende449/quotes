@@ -35,6 +35,8 @@
 ## 🚀 Установка и запуск
 
 ### 1️⃣ Клонировать репозиторий
+[Presentation](https://www.canva.com/design/DAG534_fSos/nxI1SrGX6LVCT4Y9O-Po7Q/edit?utm_content=DAG534_fSos&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 
 ```bash
 git clone https://github.com/Iskende449/quotes.git
