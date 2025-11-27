@@ -39,7 +39,6 @@ html, body {
 .bg-photo {
     position: fixed;
     inset: 0;
-    background-image: url("IMG_7B208531-E222-460F-8843-C726E7D235EB.jpeg");
     background-size: cover;
     background-position: center;
     opacity: 0.08;
@@ -190,3 +189,4 @@ blockquote {
         font-size: 15px;
     }
 }
+
