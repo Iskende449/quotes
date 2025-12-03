@@ -18,18 +18,27 @@
     box-sizing: border-box;
 }
 
+/* Центровка сайта на ПК */
+
 html, body {
     margin: 0;
     font-family: 'Inter', system-ui, sans-serif;
     background: linear-gradient(135deg, var(--bg1), var(--bg2));
     min-height: 100vh;
-    padding: 40px;
     color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 0; /* убираем смещение на ПК */
 }
 
 /* MOBILE FIX */
+
 @media (max-width: 520px) {
     html, body {
+        display: block;
         padding: 24px;
     }
 }
@@ -56,7 +65,7 @@ html, body {
     max-width: 92%;
     text-align: center;
     animation: fadeIn 1s ease;
-    margin: 0 auto;
+    margin-top: 40px; /* отступ сверху */
 }
 
 /* title */
@@ -191,6 +200,3 @@ blockquote {
         font-size: 15px;
     }
 }
-
-
-
